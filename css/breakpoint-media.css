@@ -42,7 +42,12 @@
         align-items: center;
     }
 
+    #nav-bar {
+        gap: 5vw !important;
+    }
+
     #nav-bar > * {
+        font-size: 5vw;
         margin: 0px;
     }
 }
