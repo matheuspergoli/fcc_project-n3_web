@@ -56,9 +56,45 @@
         flex-direction: column;
         align-items: center;
         gap: 2rem;
+        margin: 0px;
     }
 
     #nav-bar > * {
         font-size: 2.2rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    #header {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    #nav-bar {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        margin: 0px;
+    }
+
+    #nav-bar > * {
+        font-size: 3.2rem;
+    }
+}
+
+@media (min-width: 1024.99px) and (max-width: 1200px) {
+    #header {
+        flex-direction: row;
+    }
+
+    #nav-bar {
+        flex-direction: row;
+        margin: 0px;
+    }
+}
+
+@media (min-width: 1200.99px) {
+    #nav-bar {
+        gap: 10rem;
     }
 }

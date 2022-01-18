@@ -18,6 +18,7 @@
 #nav-bar {
     display: flex;
     justify-content: space-evenly;
+    margin-right: 100px;
 }
 
 #nav-bar > * {
