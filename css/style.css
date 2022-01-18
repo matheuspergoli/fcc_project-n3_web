@@ -1,0 +1,27 @@
+/* HEADER */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#container-img {
+    text-align: center;
+    max-width: 350px;
+}
+
+#header-img {
+    max-width: 100%;
+}
+
+#nav-bar {
+    display: flex;
+    gap: 15rem;
+}
+
+.nav-link {
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
