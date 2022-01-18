@@ -6,18 +6,22 @@
     flex-wrap: wrap;
 }
 
-#container-img {
+#container-logo {
     text-align: center;
-    max-width: 350px;
+    width: 50rem;
 }
 
 #header-img {
-    max-width: 100%;
+    width: 100%;
 }
 
 #nav-bar {
     display: flex;
-    gap: 15rem;
+    justify-content: space-evenly;
+}
+
+#nav-bar > * {
+    font-size: 1.665rem;
 }
 
 .nav-link {
