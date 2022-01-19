@@ -84,6 +84,50 @@
 }
 
 /* VIDEO */
+#container-video {
+    margin-bottom: 5rem;
+}
+
 #video {
     max-width: 100%;
+}
+
+/* PRICING */
+#pricing {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.pricing-box {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 300px;
+    gap: 1rem;
+    border: 1px solid black;
+}
+
+.pricing-box > h1 {
+    padding: 2rem;
+    background-color: var(--color-2);
+}
+
+.pricing-box > h2 {
+    font-size: 2.5rem;
+}
+
+.pricing-box > p {
+    font-size: 2rem;
+}
+
+.btn {
+    margin: 3rem auto 2rem auto;
+    width: 160px;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1.8rem;
+    border-radius: 3px;
+    background-color: var(--color-1);
 }
