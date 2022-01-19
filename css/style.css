@@ -1,10 +1,13 @@
 /* HEADER */
 #header {
+    position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 50px;
+    background-color: var(--color-3);
 }
 
 #container-logo {
@@ -38,6 +41,7 @@
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    margin-bottom: 10rem;
 }
 
 #form > h1 {
@@ -59,4 +63,27 @@
     font-weight: bold;
     border-radius: 3px;
     background-color: var(--color-1);
+}
+
+/* FEATURES */
+#features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 10rem;
+}
+
+#features h1 {
+    font-size: 3rem;
+}
+
+#features p {
+    max-width: 720px;
+    font-size: 1.5rem;
+}
+
+/* VIDEO */
+#video {
+    max-width: 100%;
 }
